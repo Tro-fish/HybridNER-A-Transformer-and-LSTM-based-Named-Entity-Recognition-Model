@@ -26,3 +26,37 @@ Consider the sentence: “Michael Jeffery Jordan was born in Brooklyn, New York.
 <p align="center">
   <img src="https://github.com/Tro-fish/HybridNER-A-Transformer-and-LSTM-based-Named-Entity-Recognition-Model/assets/79634774/1d6d8dbe-577c-46e7-a15c-406df883994b" alt="Description of the image" width="100%" />
 </p>
+
+## Repository Structure
+- NER_models.py: Definition of the NER model architecture, combining Transformer and LSTM layers.
+- NER_dataset.py: Script to handle the dataset loading and preprocessing for Named Entity Recognition (NER).
+- train.py: Script to train the NER model.
+- inference.py: Script to perform inference using the trained NER model.
+- utils.py: Utility functions and configurations for model training and evaluation.
+
+## Model Configuration
+
+| Parameter            | Value     |
+|----------------------|-----------|
+| seed                 | 12        |
+| batch_size           | 64        |
+| lr                   | 3e-4      |
+| weight_decay         | 0.01      |
+| hidden_size          | 256       |
+| num_heads            | 4         |
+| num_encoder_layers   | 6         |
+| hidden_dropout_prob  | 0.1       |
+| use_lstm             | True      |
+| num_epochs           | 50        |
+| vocab_size           | 30522     |
+| pad_token_id         | 0         |
+| num_labels           | 9         |
+
+## Test Results
+
+| Metric     | Score       |
+|------------|-------------|
+| Precision  | 0.793670    |
+| Recall     | 0.763884    |
+| F1 Score   | 0.778492    |
+| Accuracy   | 0.952845    |
