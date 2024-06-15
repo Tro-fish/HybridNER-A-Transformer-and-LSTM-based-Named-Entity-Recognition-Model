@@ -12,7 +12,7 @@
 The HybridNER model integrates Transformer layers for their exceptional capability in capturing context-aware relationships and LSTM layers for their strength in managing sequential data dependencies. This combination enables the model to achieve superior performance in identifying and classifying named entities within text.
 -  **Built from Scratch:** Entirely implemented using PyTorch, ensuring a deep understanding of the underlying mechanics and complete control over the architecture.
 -  **Hybrid Architecture:** Combines Transformer and LSTM layers to leverage the strengths of both sequential and contextual data processing.
--  **High Accuracy:** Enhanced entity recognition and classification by utilizing the powerful features of both architectures.
+-  **Easy Extensibility:** The modular design allows for straightforward integration of additional features and customization, making it highly adaptable for various NER tasks.
 
 ## Model Architecture
 <p align="center">
