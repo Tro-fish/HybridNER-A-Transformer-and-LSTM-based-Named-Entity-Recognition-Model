@@ -18,3 +18,11 @@ The HybridNER model integrates Transformer layers for their exceptional capabili
 <p align="center">
   <img src="https://github.com/Tro-fish/HybridNER-A-Transformer-and-LSTM-based-Named-Entity-Recognition-Model/assets/79634774/1d6d8dbe-577c-46e7-a15c-406df883994b" alt="Description of the image" width="100%" />
 </p>
+
+## Named Entity Recognition (NER) Task
+Named Entity Recognition (NER) is a crucial task in Natural Language Processing (NLP) that involves identifying and classifying key information (entities) in text into predefined categories such as the names of persons, organizations, locations, expressions of times, quantities, monetary values, percentages, etc. NER is used in a variety of applications, including information retrieval, question answering, and automated summarization.
+<p align="center">
+** Example of NER **
+   <img src="https://github.com/Tro-fish/HybridNER-A-Transformer-and-LSTM-based-Named-Entity-Recognition-Model/assets/79634774/1e122bbf-e7cb-4d48-9871-0618376ba14a" alt="Description of the image" width="100%" />
+</p>
+Consider the sentence: “Michael Jeffery Jordan was born in Brooklyn, New York.” In this sentence, the NER model should recognize and categorize “Michael Jeffery Jordan” as a person (PER), “Brooklyn” and “New York” as locations (LOC).
