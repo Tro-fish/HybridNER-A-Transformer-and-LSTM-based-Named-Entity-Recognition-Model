@@ -38,7 +38,7 @@ Consider the sentence: “Michael Jeffery Jordan was born in Brooklyn, New York.
 
 <table>
   <tr>
-    <td>
+    <td valign="top">
 
 ### Model Configuration
 
@@ -59,7 +59,7 @@ Consider the sentence: “Michael Jeffery Jordan was born in Brooklyn, New York.
 | num_labels           | 9         |
 
 </td>
-    <td>
+    <td valign="top">
 
 ### Test Results
 
