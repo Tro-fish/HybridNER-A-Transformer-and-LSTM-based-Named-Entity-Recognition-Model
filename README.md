@@ -36,6 +36,46 @@ Consider the sentence: “Michael Jeffery Jordan was born in Brooklyn, New York.
 
 ## Model Configuration & Test Results
 
+<table>
+  <tr>
+    <td>
+
+### Model Configuration
+
+| Parameter            | Value     |
+|----------------------|-----------|
+| seed                 | 12        |
+| batch_size           | 64        |
+| lr                   | 3e-4      |
+| weight_decay         | 0.01      |
+| hidden_size          | 256       |
+| num_heads            | 4         |
+| num_encoder_layers   | 6         |
+| hidden_dropout_prob  | 0.1       |
+| use_lstm             | True      |
+| num_epochs           | 50        |
+| vocab_size           | 30522     |
+| pad_token_id         | 0         |
+| num_labels           | 9         |
+
+</td>
+    <td>
+
+### Test Results
+
+| Metric     | Score       |
+|------------|-------------|
+| Precision  | 0.793670    |
+| Recall     | 0.763884    |
+| F1 Score   | 0.778492    |
+| Accuracy   | 0.952845    |
+
+</td>
+  </tr>
+</table>
+
+## Model Configuration & Test Results
+
 | Parameter            | Value     |       | Metric     | Score       |
 |----------------------|-----------|       |------------|-------------|     
 | batch_size           | 64        |       | Accuracy   | 0.952845    |
