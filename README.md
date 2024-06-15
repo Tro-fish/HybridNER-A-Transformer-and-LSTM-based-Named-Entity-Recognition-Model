@@ -33,6 +33,7 @@ Consider the sentence: “Michael Jeffery Jordan was born in Brooklyn, New York.
 - train.py: Script to train the NER model.
 - inference.py: Script to perform inference using the trained NER model.
 - utils.py: Utility functions and configurations for model training and evaluation.
+- model/best_ner_model.pth: Best performing models trained
 
 ## Model Configuration & Test Results
 
