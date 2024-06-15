@@ -44,7 +44,6 @@ Consider the sentence: “Michael Jeffery Jordan was born in Brooklyn, New York.
 
 | Parameter            | Value     |
 |----------------------|-----------|
-| seed                 | 12        |
 | batch_size           | 64        |
 | lr                   | 3e-4      |
 | weight_decay         | 0.01      |
@@ -52,11 +51,7 @@ Consider the sentence: “Michael Jeffery Jordan was born in Brooklyn, New York.
 | num_heads            | 4         |
 | num_encoder_layers   | 6         |
 | hidden_dropout_prob  | 0.1       |
-| use_lstm             | True      |
-| num_epochs           | 50        |
-| vocab_size           | 30522     |
-| pad_token_id         | 0         |
-| num_labels           | 9         |
+| num_epochs           | 30        |
 
 </td>
     <td valign="top">
@@ -73,26 +68,3 @@ Consider the sentence: “Michael Jeffery Jordan was born in Brooklyn, New York.
 </td>
   </tr>
 </table>
-
-## Model Configuration & Test Results
-
-| Parameter            | Value     |       | Metric     | Score       |
-|----------------------|-----------|       |------------|-------------|     
-| batch_size           | 64        |       | Accuracy   | 0.952845    |
-| lr                   | 3e-4      |       | F1 Score   | 0.778492    |
-| weight_decay         | 0.01      |       | Recall     | 0.763884    |
-| hidden_size          | 256       |       | Precision  | 0.793670    |
-| num_heads            | 4         |
-| num_encoder_layers   | 6         |
-| hidden_dropout_prob  | 0.1       |
-| num_epochs           | 30        |
-| num_labels           | 9         |
-
-## Test Results
-
-| Metric     | Score       |
-|------------|-------------|
-| Precision  | 0.793670    |
-| Recall     | 0.763884    |
-| F1 Score   | 0.778492    |
-| Accuracy   | 0.952845    |
