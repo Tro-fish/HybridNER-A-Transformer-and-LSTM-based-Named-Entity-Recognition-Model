@@ -28,12 +28,12 @@ Consider the sentence: “Michael Jeffery Jordan was born in Brooklyn, New York.
 </p>
 
 ## Repository Structure
-- NER_models.py: Definition of the NER model architecture, combining Transformer and LSTM layers.
-- NER_dataset.py: Script to handle the dataset loading and preprocessing for Named Entity Recognition (NER).
-- train.py: Script to train the NER model.
-- inference.py: Script to perform inference using the trained NER model.
-- utils.py: Utility functions and configurations for model training and evaluation.
-- model/best_ner_model.pth: Best performing models trained
+- **NER_models.py**: Definition of the NER model architecture, combining Transformer and LSTM layers.
+- **NER_dataset.py**: Script to handle the dataset loading and preprocessing for Named Entity Recognition (NER).
+- **train.py**: Script to train the NER model.
+- **inference.py**: Script to perform inference using the trained NER model.
+- **utils.py**: Utility functions and configurations for model training and evaluation.
+- **model/best_ner_model.pth**: Best performing models trained
 
 ## Model Configuration & Test Results
 
